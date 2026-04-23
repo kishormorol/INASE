@@ -196,6 +196,7 @@ class ScrapNews:
         data['author'] = author
         data['scrap_at'] = str(datetime.now())
         data['full_article'] = article_text
+        data['processed'] = False
         return data
 
 
