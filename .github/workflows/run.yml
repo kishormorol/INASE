@@ -46,8 +46,6 @@ jobs:
   run:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
 
     env:
       MONGO_URI: ${{ secrets.MONGO_URI }}
